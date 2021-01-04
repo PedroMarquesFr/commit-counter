@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+}
+#wrapper {
+  display: flex;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  width: 1px;
+  height: 120px;
+  border: 1px solid rgb(219, 219, 219);
+}
+div {
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+}
+
+.low-commit {
+  background-color: rgb(132, 240, 132);
+}
+.average-commit {
+  background-color: rgb(63, 177, 63);
+}
+.high-commit {
+  background-color: rgb(24, 129, 24);
+}
+.more-than-average-commit {
+  background-color: rgb(4, 80, 4);
+}
+
+.red {
+  background-color: rgb(255, 0, 0);
+}
