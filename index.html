@@ -6,12 +6,16 @@
     <title>Commit Thing</title>
     <base href="/" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    Hello World!
-    <input type="number" id="inpt" />
+    Commits per day simulator
+    <input type="number" id="inpt" min="-1" max="999"/>
 
     <button id="myBtn">Pass Day</button>
+    if number < 0 commits are random
     <section id="wrapper"></section>
     <script type="text/javascript" src="/script.js"></script>
   </body>

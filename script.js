@@ -52,7 +52,8 @@ const updateColors = () => {
 };
 
 document.getElementById("myBtn").addEventListener("click", function () {
-  const commits = parseInt(document.querySelector("#inpt").value);
+  let commits = parseInt(document.querySelector("#inpt").value);
+  commits = commits<0?commits=Math.floor(Math.random() * 30):commits;
   TOTAL_COMMITS += commits;
   ARRAY_DAY_COMMIT.push(commits);
   TOTAL_DAYS += 1;
